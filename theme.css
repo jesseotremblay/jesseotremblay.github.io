@@ -9,9 +9,12 @@ section {
 }
 
 header {
-	background: 009EB2;
+	width: 100%;
+	height: 160px;
+	background: 00E2FF;
 	margin: 0px;
-	padding: 10px;
+	padding: 0px;
+	position: fixed;
 }
 
 nav {
@@ -21,35 +24,50 @@ nav {
 }
 
 #main {
-	background: FF6E00;
 	margin: 0px;
-	padding: 10px;
+	padding: 40px;
+	padding-top: 200px;
 }
 
 #secondary {
-	background: 00E2FF;
+	background: 009EB2;
 	margin: 0px;
 	padding: 10px;
 
 }
 
 #selfie {
-	max-width: 20%;
-	max-height: 20%;
-	border-radius:100px;
+	float: left;
+	max-width: 35%;
+	max-height: 35%;
+	border-style: solid;
+	border-radius:130px;
+	border-color: 00E2FF;
 }
 
 #bio {
 	max-width: 65ex;
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 ul.a li {
 	list-style-type: none;
 	display: inline-block;
+	font-size: 24px;
+	border-style: solid;
+	border-color: black;
+	padding: 5px;
 }
 ul.b {
 	list-style-type: none;
+	font-size: 24px;
 }
+
 
 footer {
 	background: B24D00;
