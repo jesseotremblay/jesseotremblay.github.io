@@ -1,3 +1,59 @@
+body {
+	font-family: verdana;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+section {
+}
+
 header {
-	background-color: 009EB2;
+	background: 009EB2;
+	margin: 0px;
+	padding: 10px;
+}
+
+nav {
+	background: FF7D19;
+	margin: 0px;
+	padding: 10px;
+}
+
+#main {
+	background: FF6E00;
+	margin: 0px;
+	padding: 10px;
+}
+
+#secondary {
+	background: 00E2FF;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+#selfie {
+	max-width: 20%;
+	max-height: 20%;
+	border-radius:100px;
+}
+
+#bio {
+	max-width: 65ex;
+}
+
+ul.a li {
+	list-style-type: none;
+	display: inline-block;
+}
+ul.b {
+	list-style-type: none;
+}
+
+footer {
+	background: B24D00;
+	margin: 0px;
+	padding: 10px;
+
 }
