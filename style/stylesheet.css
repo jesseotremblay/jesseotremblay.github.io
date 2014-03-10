@@ -1,0 +1,9 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+header {
+	background-color: #383838;
+	color: #FFFFFF;
+	font: 24px 'Oleo Script', Helvetica, sans-serif;
+}

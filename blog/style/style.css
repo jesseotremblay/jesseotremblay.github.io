@@ -1,0 +1,23 @@
+@font-face {
+    font-family: LeagueGothic-regular;
+    src: url(fonts/LeagueGothic-Regular.otf);
+}
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+} 
+
+body {
+    font-family: LeagueGothic-regular;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    border-bottom: solid 1px;
+}
+
+.post-header {
+    text-transform: uppercase;
+}
