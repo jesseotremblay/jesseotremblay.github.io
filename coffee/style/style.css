@@ -40,8 +40,7 @@ footer {
 .main {
 	height: 300px;
 	max-width: 86ex;
-	margin-top: 30px;
-	margin-left: 20%;
+	margin: 8ex auto;
 }
 
 .left {
