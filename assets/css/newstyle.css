@@ -6,3 +6,10 @@
     border-radius: 10em;
     border: 0.2em solid white;
 }
+
+ul.media-grid li {
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+}
