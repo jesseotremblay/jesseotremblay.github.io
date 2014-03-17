@@ -61,3 +61,8 @@ p {
 .post-header {
     text-transform: uppercase;
 }
+
+li a {
+    text-decoration: none;
+    color: black;
+}

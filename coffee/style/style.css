@@ -1,54 +1,94 @@
+/*This is a comment
 * {
-	padding: 0px;
-	margin: 0px;
 	font-family: arial;
+	border: 1px dotted red;
 }
+*/
 
 body {
 	text-align: center;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
 }
 
 header {
-	background: #302013;
+	background-image: url("http://www.personal.psu.edu/jnf5028/blogs/cup_of_joepa/Coffee_Bean_Wallpaper_by_mrskupe.png");
+	background-size: 50%;
 	color: #FFFFFF;
 	height: 200px;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
-a {
-	text-decoration: none;
-	color: #FFFFFF;
+nav ul {
+	background: #302013;
+	margin: 0px;
+	padding: 0px;
 }
 
-ul li {
-	list-style-type: none;
+nav li {
+	display: inline-block;
+	padding: 0px;
+	height: 3em;
+	width: 8em;
+}
+
+nav a {
 	display: inline-block;
 	text-decoration: none;
 	color: #FFFFFF;
-	width: 100px;
-	padding-top: 40px;
+	padding: 15px;
+}
+
+nav li:hover {
+	background: #132330;
+	color: grey;
+	height: 3em;
 }
 
 footer {
 	clear: both;
 	background: #302013;
 	color: #FFFFFF;
-	height: 100px;
+	height: 70px;
 	padding: 30px;
 }
 
 .main {
 	height: 300px;
 	max-width: 86ex;
-	margin: 8ex auto;
+	margin: 4em auto;
 }
 
 .left {
 	width: 40ex;
 	float: left;
+	margin-right: 5.5ex;
 }
 
 .right {
 	width: 40ex;
 	float: left;
+}
+
+@media screen and (max-width: 720px) {
+	.main {
+		max-width: 41ex;
+		margin: 2em auto;
+	}
+}
+
+@media screen and (max-width: 524px) {
+	.main {
+		margin: 4em auto;
+	}
+	nav ul {
+
+		background: #302013;
+		margin: 2em auto;
+		max-width: 524px;
+	}
+	nav li {
+		width: 48%;
+	}
 }
