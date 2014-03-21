@@ -41,7 +41,7 @@ nav a {
 }
 
 nav li:hover {
-	background: #132330;
+	background: #4D3A2B;
 	color: grey;
 	height: 3em;
 }
@@ -57,7 +57,7 @@ footer {
 .main {
 	height: 300px;
 	max-width: 86ex;
-	margin: 4em auto;
+	margin: 2em auto;
 }
 
 .left {
@@ -70,6 +70,7 @@ footer {
 	width: 40ex;
 	float: left;
 }
+
 
 @media screen and (max-width: 720px) {
 	.main {
