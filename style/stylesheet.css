@@ -1,3 +1,6 @@
+p {
+	max-width: 65ex;
+}
 header {
 	background-color: #383838;
 	color: #FFFFFF;
