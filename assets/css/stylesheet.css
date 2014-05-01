@@ -6,3 +6,7 @@ header {
 	color: #FFFFFF;
 	font: 24px 'Oleo Script', Helvetica, sans-serif;
 }
+.thumbnail {
+	width: 330;
+	height: 230;
+}
