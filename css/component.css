@@ -81,7 +81,7 @@ a:hover {
 .bl-main > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background: url('../images/back4.jpg') no-repeat; 
+	background: url('../images/back4.png') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -91,7 +91,7 @@ a:hover {
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: url('../images/boston.png') no-repeat; 
+	background: url('../images/boston2.png') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -505,9 +505,6 @@ section.bl-expand .bl-icon-close {
 .screenz {
 	max-width: 10em;
 	margin: auto;
-}
-.mocks {
-	max-width: 10em;
 }
 
 /* --------------------------------------------------------	*/
