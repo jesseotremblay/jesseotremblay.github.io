@@ -61,7 +61,7 @@ a:hover {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: url('../images/profile.jpg') no-repeat; 
+	background: url('../images/profile.png') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -71,7 +71,7 @@ a:hover {
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: url('../images/placeit.png') no-repeat; 
+	background: url('../images/quotable-iphone.png') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -91,7 +91,7 @@ a:hover {
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: url('../images/boston.jpg') no-repeat; 
+	background: url('../images/boston.png') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -493,6 +493,21 @@ section.bl-expand .bl-icon-close {
 	-webkit-transition: opacity 0.3s linear 0.5s;
 	-moz-transition: opacity 0.3s linear 0.5s;
 	transition: opacity 0.3s linear 0.5s;
+}
+#bl-work-section {
+	text-align: center;
+}
+.blogpost {
+	text-align: left;
+	max-width: 95ex;
+	margin: auto;
+}
+.screenz {
+	max-width: 10em;
+	margin: auto;
+}
+.mocks {
+	max-width: 10em;
 }
 
 /* --------------------------------------------------------	*/
